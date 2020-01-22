@@ -1,0 +1,1 @@
+#if you run traceroute first entry is the local IP address, second is NAT router that remaps the local IP to a public IP, and the third enrty is the host of our public ip

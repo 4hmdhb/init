@@ -1,0 +1,3 @@
+#you need to change /etc/hostname may also want to change /etc/hosts
+#to apply new changes type /etc/init.d/hostname.sh start or just reboot or 
+#invoke-rc.d hostname.sh start

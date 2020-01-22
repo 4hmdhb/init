@@ -1,0 +1,2 @@
+#you must be a superuser in order to change su - 
+hostname new_name

@@ -1,0 +1,2 @@
+#ARG=$(ipconfig getifaddr en0); nslookup $ARG we can use that command to look up out IP address, the result will be under name section
+e1z3r8p12.42.us.org.

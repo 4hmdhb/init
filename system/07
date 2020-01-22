@@ -1,0 +1,2 @@
+#sshd will typically write a PID(process ID) file; by default this is at /var/run/sshd.pid. You can use this to find the process ID of the listening sshd process. You should be aware that sshd may fork several subprocesses as it works, so what you wantreally depends on what you intend to do with it.
+cat /var/run/sshd.pid
