@@ -1,0 +1,3 @@
+#to log in in grafical mode just type username and password to the matching fields 
+#or if you are using terminal you can use 'su [username]i'
+#to log in with ssh session use 'ssh login@ip_address'
