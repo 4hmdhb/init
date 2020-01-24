@@ -1,2 +1,2 @@
-#sudo /etc/init.d/ssh status or sudo service ssh status
+#sudo /etc/init.d/ssh status or sudo service ssh status or systemctl status ssh
 sudo service ssh status
