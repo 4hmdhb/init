@@ -7,7 +7,7 @@ then
 	sudo passwd -l $USER
 	if [ "$(pgrep -u $USER)" != "$NULL" ]
 	then
-		sudo kill -9 $(pgrep -u $username)
+		sudo kill -9 $(pgrep -u $USER)
 	fi
 	sudo deluser $USER
 	echo "$USER WAS SUCCESSFULLY DELETED)"
