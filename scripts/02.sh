@@ -9,7 +9,7 @@ then
 	then
 		sudo kill -9 $(pgrep -u $username)
 	fi
-	sudo userdel -r $username
+	sudo deluser $username
 	echo "$USER WAS SUCCESSFULLY DELETED)"
 else
 	echo "$USER DOES NOT EXIST"
